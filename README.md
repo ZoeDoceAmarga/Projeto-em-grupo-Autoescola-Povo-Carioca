@@ -20,8 +20,8 @@ Projeto realizado com a intenção de colocar em prática tudo o que foi passado
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style=" width:60px;cursor:default"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" style=" width:60px;cursor:default"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" style=" width:60px;cursor:default"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" style=" width:60px;cursor:default"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" style=" width:60px;cursor:default"/>
+  <img src="https://www.google.com/urlsa=i&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FReact_%2528JavaScript%2529&psig=AOvVaw1osQOQTmG36VFrqJr9N1MH&ust=1672878375219000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJj5q-zTrPwCFQAAAAAdAAAAABAE" style="width:60px;cursor:default"/>
+
 </div>
 
 ## 🤝 Squad
@@ -32,7 +32,7 @@ Projeto realizado com a intenção de colocar em prática tudo o que foi passado
   <li><a href="https://github.com/AlexProgramadorS">@AlexProgramadorS</li>
   <li><a href="https://github.com/millenameira">@millenameira</li>
   <li><a href="https://github.com/Lipebarreiro">@Lipebarreiro</li>
-  <li><a href="https://github.com/">@</li>
+  <li><a href="https://github.com/GuttenbergJr">@GuttenbergJr</li>
 </ul>
 
 ## 🖥️ O Projeto
