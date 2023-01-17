@@ -4,6 +4,14 @@ import './stylesHome.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
 
+
+import ImageCarro from "../imgs/carro-branco.png"
+import ImageMoto from "../imgs/moto-branca.png"
+import ImageHabilitado from "../imgs/habilitado-branco.png"
+import ImageAdicao from "../imgs/adicao.png"
+import ImageOr from "../imgs/or.png"
+import ImageRenov from "../imgs/renov.png"
+
 export const Home = () => {
   return (
     <div className="global">
@@ -11,37 +19,72 @@ export const Home = () => {
          <div className="conteiner">
        
            
-        <div className="carrosel">
-                <h2>carrosel</h2>
+        <div className="carrossel">
+                
 
         </div>
             <div className="services">
+
                 <h2 className="t2">Nossos Serviços</h2>
-                <p className="cont item1">1 Habilitação A</p>
-                <p className="cont item2" >1 Habilitação B</p>
-                <p className="cont item3
-                ">1 Habilitação AB</p>
-                <p className="cont item4">Adição A ou B</p>
-                <p className="cont item5">Renovação de carteira</p>
-                <p className="cont item6">Aulas para habilitados</p>
-            </div>
-            <div className="sobre">
-                <h2 className="titulo-sobre">Por que?</h2>
-                <div className="bloco1">
-                    <p>Nossa Frota</p>
+
+
+                <div className='item1 card'>
+                    
+                    <img className='imagemCar' src={ImageCarro}/><p className="cont">1 Habilitação A</p>
                 </div>
-                <div className="bloco2">
-                    <p>Conforto</p>
-                </div>
-                <div className="bloco3">
-                    <p>Nossa Equipe</p>
+
+
+                <div className='item2 card'>
+                    <img className='imagemMoto' src={ImageMoto}/>
+
+                    <p className="cont" >1 Habilitação B</p>
                 </div>
                 
-            </div>
-            <div className="visita">
-                <h2 className="titulo-visita">Marque sua visita</h2>
-                <div className="form">
+                <div className='item3 card'>
+                    
+                
+                    <img className='imagem' src={ImageMoto}/>
+                    <img className='imagemAd' src={ImageAdicao}/>
+                    <img className='imagem' src={ImageCarro}/><p className="cont">1 Habilitação AB</p>
+                </div>
 
+
+                <div className='item4 card'>
+                    
+                    <img className='imagem' src={ImageMoto}/>
+                    <img className='imagemAd' src={ImageOr}/>
+                    <img className='imagem' src={ImageCarro}/><p className="cont ">Adição A ou B</p>
+                </div>
+
+                <div className='item5 card'>
+                    <img className='imagemRenov' src={ImageRenov}/>
+                    <p className="cont">Renovação de carteira</p>
+                </div>
+
+                <div className='item6 card'>
+                    
+                    <img className='imagemHab' src={ImageHabilitado}/>
+                    <p className="cont">Aulas para habilitados</p>
+                    
+                </div>
+                
+
+
+
+            </div>
+            <div className="sobre">
+                <h2 className="titulo-sobre">Por que escolher a Autoescola Povo Carioca?</h2>
+                <div className="blocos bloco1">
+                    <h3>Nossa Frota</h3>
+                    <p>Possuímos frota com carros e motos novos</p>
+                </div>
+                <div className=" blocos bloco2">
+                    <h3>Conforto</h3>
+                    <p>A Autoescola Povo Carioca tem mais de 10 anos no mercado formando condutores. Possui uma frota de veículos novos com ar condicionado, sala de aula climatizada e informatizada, simuladores próprios.</p>
+                </div>
+                <div className=" blocos bloco3">
+                    <h3>Nossa Equipe</h3>
+                    <p>Nossa equipe é capacitada para prestar o melhor atendimento aos nossos alunos, além disso dispomos de agenda online e App do aluno.</p>
                 </div>
                 
             </div>

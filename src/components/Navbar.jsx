@@ -12,9 +12,9 @@ const Navbar = () => {
       <ul>
       <Link to="/"> <li>Inicio</li></Link>
        <Link to="/sobre"> <li>Quem somos</li></Link>
-       <Link to="/services"> <li>Nossos serviços</li></Link>
+       <Link to="/services"> <li>Serviços</li></Link>
        <Link to="/contato"><li>Contato</li></Link>
-        <li>Depoimentos</li>
+       <Link to ='/area-aluno'><li>Área do Aluno</li></Link>
       </ul>
     </nav>
       

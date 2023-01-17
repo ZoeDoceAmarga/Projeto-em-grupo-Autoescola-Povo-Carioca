@@ -10,6 +10,7 @@ import { Home } from './pages/Home'
 import Sobre from './pages/Sobre'
 import Contato from './pages/Contato'
 import Services from './pages/NossosServicos'
+import AreaAluno from './pages/AreaAluno'
 
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route path='/sobre' element={<Sobre />} />
         <Route path='/contato' element={<Contato />} />
         <Route path='/services' element={<Services />} />
+        <Route path='/area-aluno' element={<AreaAluno/>} />
 
 
 
