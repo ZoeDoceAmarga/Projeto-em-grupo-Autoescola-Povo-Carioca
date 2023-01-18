@@ -2,6 +2,9 @@ import React from 'react'
 import styles from './StyleNavbar.css'
 import {Link} from 'react-router-dom'
 import Logo from "./autoescola.png"
+import styled from 'styled-components'
+
+
 
 const Navbar = () => {
   return (
