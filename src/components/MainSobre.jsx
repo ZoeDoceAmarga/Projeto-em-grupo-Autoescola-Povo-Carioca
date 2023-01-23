@@ -1,24 +1,15 @@
 import React from 'react'
-import "./stylesSobre.css"
+import Carrossel from './Carrossel'
 
-//componentes
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer';
-
-
-const Sobre = () => {
+const MainSobre = () => {
   return (
-    <div className='geral'>
-        <Navbar />
-            <div className='content'>
-              <div className='empresa'>
+    <div>
+      <div className='empresa'>
                 <h2>Nossa Empresa</h2>
                 <p> O Centro de Formação de Condutores Povo Carioca foi fundado em 1998. Hoje, o CFC POvo Carioca continua a cumprir a missão visionária proposta pelos seus fundadores, Sergio Ferreira Pimentel e Elizabeth Ferreira Pimentel.</p>
                 <p>A missão visionária proposta pelos seus fundadores é atender todas as necessidades e expectativas dos clientes, e formar com qualidade os novos condutores e assim, contribuir para um trânsito mais seguro de forma defensiva e responsável. </p>
               </div>
-              <div className="carrossel2">
-                <h2>carrossel</h2>
-              </div>
+              <Carrossel />
               <div className='equipe'>
                 <h2>Nossa Equipe</h2>
                 <p> Nossa equipe busca constantemente o aprimoramento de seus serviços por meio da qualificação dos profissionais, tecnologia atualizada e grande disposição para atender as demandas do CONTRAN e do DETRAN/RJ, com maior qualidade, agilidade e profissionalismo.
@@ -40,13 +31,9 @@ const Sobre = () => {
 
                 
               </div>
-              <Footer /> 
-            </div>
-
-        
-
+      
     </div>
   )
 }
 
-export default Sobre
+export default MainSobre
