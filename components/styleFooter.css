@@ -1,0 +1,92 @@
+.footer{
+    display: grid;
+    grid-template-areas: 
+    "atent loc contat"
+    "links redeSocial uni"
+    "logo logo logo"
+    ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #000000;
+    height: 350px;
+    width: 100vw;
+
+  }
+  .logo{
+    width:250px;
+    grid-area: logo;
+    justify-self: center;
+
+  }
+  .atendimento{
+    grid-area: atent;
+    margin-bottom: 25px;
+  }
+
+  .contato{
+    grid-area: contat;
+  }
+  .local{
+    grid-area: loc;
+  }
+  .tituloLink{
+    margin-bottom: 20px;
+  }
+  .linksUteis{
+    grid-area: links;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .links li{
+    list-style: none;margin-bottom: 0px;
+
+  }
+  .links {
+    flex-direction: column;
+    
+  }
+  /* .links ul{
+    
+  } */
+  .redeSocial{
+    grid-area: redeSocial;
+  }
+  .unidade{
+    grid-area: uni;
+  }
+  
+  /* .footer h2 a {
+    opacity: 1;
+  } */
+
+  .footer ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    text-decoration: none;
+    
+  }
+  .footer li {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* .new-btn{
+    border: 1px solid #FFF;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    
+  }
+  .new-btn:hover{
+    opacity: 1;
+  } */
+
+
+p{
+  font-size: 18px;color: white;}
+
+.titulosFooter{
+font-size: 24px; color: #FFB91C;
+}

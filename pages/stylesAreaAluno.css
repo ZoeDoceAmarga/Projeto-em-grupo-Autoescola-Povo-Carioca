@@ -1,0 +1,55 @@
+.container{
+  display: grid;
+  grid-template-areas: 
+  "titulo"
+  "btn1"
+  "btn2"
+  "btn3";
+
+  height: 500px;
+}
+.titulo{
+  grid-area: titulo;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  text-align: center;
+  color: #FFB91C;
+  font-size: 45px;
+}
+.btn1{
+  grid-area: btn1;
+  width: 200px;
+  justify-self: center;
+  margin-bottom: 30px;
+
+  
+}
+.btn2{
+  grid-area: btn2;
+  width: 200px;
+  justify-self: center;
+  margin-bottom: 30px;
+  
+}
+
+.btn3{
+  grid-area: btn3;
+  width: 200px;
+  justify-self: center;
+  margin-bottom: 100px;
+ 
+  
+}
+.btn{
+  
+  background-color: #FFB91C;
+  color: #ffff  ;
+  border: 0px;
+  border-radius: 5px;
+  height: 50px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #f5d48d;
+}
+
