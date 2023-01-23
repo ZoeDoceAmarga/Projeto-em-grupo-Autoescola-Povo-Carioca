@@ -1,0 +1,36 @@
+.Container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  
+  .inner{
+    display: flex;
+  }
+  
+  .item{
+    min-height: 200px;
+    min-width: 400px;
+    padding: 15px;
+  
+  }
+  
+  .item img{
+  
+    width: 70%;
+    height: 60%;
+    border-radius: 50%;
+    pointer-events: none;
+  
+  }
+  
+  .carousel{
+    cursor: grab;
+    overflow: hidden;
+    
+  }
+  

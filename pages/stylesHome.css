@@ -1,0 +1,179 @@
+.conteiner{ 
+    display: grid;
+    grid-template-areas:
+    "car car car car car car" 
+    "services services services services services services"
+    "sobre sobre sobre sobre sobre sobre"
+    "visita visita visita visita visita visita"
+    
+    ;
+    grid-template-rows:350px 1300px 750px   ;
+   
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;  /* 5100px*/
+    
+}
+
+.carrossel{
+    grid-area: car;
+    background-color: rgb(10, 61, 21);
+    
+
+
+}
+.services{
+    grid-area: services;
+    /* background-color: green; */
+    background-color: #FFB91C;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 50px 50px;
+    justify-content: space-around;
+    height: 2300px;
+}
+.t2{
+    color: #ffff;
+    font-size: 45px;
+    /* margin-left: 40%; */
+    /* background-color: aqua; */
+    grid-area: titulo;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 80px;
+
+}
+.cont{
+    color: #FFFF;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.card{
+    width: 500px;
+    height: 400px;   
+    /* background-color: rgb(72, 109, 109); */
+}
+
+.item1{
+ 
+    order: 1;
+    
+    
+}
+.item2{
+   order: 2;
+
+   
+}
+.item3{
+    order: 3;
+
+}
+.item4{
+    order: 6;
+  
+}
+.item5{
+    order: 5;  
+
+}
+.item6{
+    order: 4;
+    
+   
+}
+
+.imagem{
+    width: 150px;
+    margin-right: 20px;
+    
+
+}
+.imagemCar,.imagemMoto,.imagemHab, .imagemRenov{
+    margin: auto;
+    display: block;
+}
+.imagemAd{
+    width: 50px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.sobre{
+    grid-area: sobre;
+    
+    background-color: #FFB91C;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 50px 50px;
+    justify-content: space-around;
+    height: 800px;
+
+}
+.titulo-sobre{
+    
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 180px;
+    /* background-color: antiquewhite; */
+    font-size: 35px;
+    color: #ffff;
+}
+.blocos{
+    height: 300px;
+    width: 400px;
+    /* background-color: chocolate; */
+    text-align: center;
+}
+.blocos h3{
+    color: #ffff;
+    margin-bottom: 25px;
+}
+.blocos p{
+    color: #ffff;
+}
+/* .bloco1{
+    
+    
+}
+.bloco2 {
+ 
+}
+.bloco3{
+
+} */
+.visita{
+    grid-area: visita;
+    
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 50px 50px;
+    justify-content: space-around;
+    height: 1000px;
+}
+.titulo-visita{
+    
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    
+}
+.form{
+    height: 650px;
+    width: 600px;
+    background-color: aliceblue;
+    
+}

@@ -1,0 +1,50 @@
+.geral{
+  
+}
+.content{
+  display: grid;
+  grid-template-areas: 
+  "empresa "
+  "carrossel "
+  "equipe "
+  "frota ";
+  grid-template-rows: 500px 400px 450px 680px;
+  background-color: #FFE5AC;
+  width: 1625px;
+  
+  
+}
+.empresa{
+  grid-area: empresa;
+  width: 1000px;
+  /* background-color: aqua; */
+}
+.carrossel2{
+  grid-area: carrossel;
+  background-color: rgb(10, 61, 21);
+}
+.equipe{
+  grid-area: equipe;
+  width: 1000px;
+  /* background-color: coral; */
+}
+.frota{
+  grid-area: frota;
+  width: 1000px;
+  /* background-color: darkolivegreen; */
+}
+
+.empresa h2, .carrosel h2, .equipe h2, .frota h2{
+  color: #FEB510;
+  width: 1000px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-top: 100px;
+  font-size: 45px;
+}
+.empresa p, .carrosel p, .equipe p, .frota p{
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px;
+  margin-left: 50px;
+ 
+}
