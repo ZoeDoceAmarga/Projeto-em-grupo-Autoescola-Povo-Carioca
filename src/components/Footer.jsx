@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/site.css'
+import '../components/home/site.css'
 import {ImFacebook2,ImWhatsapp,ImInstagram} from 'react-icons/im'
 
 const Footer = props => {

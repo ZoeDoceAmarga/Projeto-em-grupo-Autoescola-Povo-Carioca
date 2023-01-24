@@ -1,5 +1,5 @@
 
-import '../styles/site.css'
+import '../components/home/site.css'
 import imagem1 from '../imgs/autoescola1.jpeg'
 import imagem2 from '../imgs/autoescola2.jpeg'
 

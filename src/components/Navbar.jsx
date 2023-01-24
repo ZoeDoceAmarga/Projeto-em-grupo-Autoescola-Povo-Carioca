@@ -1,7 +1,7 @@
 
 import {Link} from "react-router-dom"
 
-import '../styles/site.css'
+import '../components/home/site.css'
 
 import Logo from "../imgs/logo.png"
 

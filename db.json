@@ -1,0 +1,148 @@
+{
+  "alunos":[
+    {
+      "id":1,
+      "cpf":903849384,
+      "nome": "Simone"
+    },
+    {
+      "id":2,
+      "cpf":903849384,
+      "nome": "Abel"
+    }
+  ],
+  "funcionarios":[
+    {
+      "id":1,
+      "nome":"Lumiara",
+      "cargo":"Atendente"
+
+    },
+    {
+      "id":2,
+      "nome":"Paula",
+      "cargo":"Recepcionista"
+
+    },
+    {
+      "id":3,
+      "nome":"Julio",
+      "cargo":"Recepcionista"
+
+    },
+    {
+      "id":4,
+      "nome":"Sandra",
+      "cargo":"Instrutora de Carro"
+    },
+    {
+      "id":5,
+      "nome":"Leonardo",
+      "cargo":"Instrutor de Moto"
+    },
+    {
+      "id":6,
+      "nome":"Lucas",
+      "cargo":"Instrutor de Teoria ",
+      "disciplinas":" Legislação de Trânsito e Direção Defensiva"
+    },
+    {
+      "id":7,
+      "nome":"Henrique",
+      "cargo":"Instrutor de Teoria ",
+      "disciplinas":" Cidadania e Meio Ambiente e Primeiros Socorros "
+    },
+    {
+      "id":8,
+      "nome":"Ingrid",
+      "cargo":"Instrutor de Teoria ",
+      "disciplinas":"Mecânica Básica "
+    }  
+  ],
+  "segunda-feira":[
+    {
+      "id":1,
+      "tempo1-manha":"Legislação de Trânsito",
+      "tempo2-manha":"Legislação de Trânsito",
+      "tempo3-manha":"Cidadania e Meio Ambiente",
+      "tempo1-tarde":"Primeiros Socorro",
+      "tempo2-tarde":"Mecânica Básica",
+      "tempo3-tarde":"Mecânica Básica",
+      "tempo4-tarde":"Primeiros Socorro",
+      "tempo1-noite":"Legislação de Trânsito",
+      "tempo2-noite":"Legislação de Trânsito",
+      "tempo3-noite":"Direção Defensiva"
+    }
+  ],
+  "terça-feira":[
+    {
+      "id":2,
+      "tempo1-manha":"Legislação de Trânsito",
+      "tempo2-manha":"Legislação de Trânsito",
+      "tempo3-manha":"Cidadania e Meio Ambiente",
+      "tempo1-tarde":"Primeiros Socorro",
+      "tempo2-tarde":"Mecânica Básica",
+      "tempo3-tarde":"Mecânica Básica",
+      "tempo4-tarde":"Primeiros Socorro",
+      "tempo1-noite":"Legislação de Trânsito",
+      "tempo2-noite":"Legislação de Trânsito",
+      "tempo3-noite":"Direção Defensiva"
+    }
+  ],
+  "quarta-feira":[
+    {
+      "id":3,
+      "tempo1-manha":"Legislação de Trânsito",
+      "tempo2-manha":"Legislação de Trânsito",
+      "tempo3-manha":"Cidadania e Meio Ambiente",
+      "tempo1-tarde":"Primeiros Socorro",
+      "tempo2-tarde":"Mecânica Básica",
+      "tempo3-tarde":"Mecânica Básica",
+      "tempo4-tarde":"Primeiros Socorro",
+      "tempo1-noite":"Legislação de Trânsito",
+      "tempo2-noite":"Legislação de Trânsito",
+      "tempo3-noite":"Direção Defensiva"
+    }
+  ],
+  "quinta-feira":[
+    {
+      "id":4,
+      "tempo1-manha":"Legislação de Trânsito",
+      "tempo2-manha":"Legislação de Trânsito",
+      "tempo3-manha":"Cidadania e Meio Ambiente",
+      "tempo1-tarde":"Primeiros Socorro",
+      "tempo2-tarde":"Mecânica Básica",
+      "tempo3-tarde":"Mecânica Básica",
+      "tempo4-tarde":"Primeiros Socorro",
+      "tempo1-noite":"Legislação de Trânsito",
+      "tempo2-noite":"Legislação de Trânsito",
+      "tempo3-noite":"Direção Defensiva"
+    }
+  ],
+  "sexta-feira":[
+    {
+      "id":5,
+      "tempo1-manha":"Legislação de Trânsito",
+      "tempo2-manha":"Legislação de Trânsito",
+      "tempo3-manha":"Cidadania e Meio Ambiente",
+      "tempo1-tarde":"Primeiros Socorro",
+      "tempo2-tarde":"Mecânica Básica",
+      "tempo3-tarde":"Mecânica Básica",
+      "tempo4-tarde":"Primeiros Socorro",
+      "tempo1-noite":"Legislação de Trânsito",
+      "tempo2-noite":"Legislação de Trânsito",
+      "tempo3-noite":"Direção Defensiva"
+    }
+  ],
+  "sabado":[
+    {
+      "id":6,
+      "tempo1-manha":"Legislação de Trânsito",
+      "tempo2-manha":"Legislação de Trânsito",
+      "tempo3-manha":"Cidadania e Meio Ambiente",
+      "tempo4-manha":"Primeiros Socorro",
+      "tempo5-manha":"Mecânica Básica"
+    }
+  ]
+
+}

@@ -211,7 +211,18 @@ h3 {
 
 .game-list:hover {
     transform: scale(1.10);
-    cursor: pointer;
+    
+}
+.btn-default{
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    color: #000015;
+    border:none;
+}
+.btn-default:hover{
+    background-color: #a7a7a7;
 }
 .imgserv{
     width: 50px;
@@ -219,11 +230,22 @@ h3 {
 }
 #imgRenova{
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 180px;
+}
+#imagemhabi{
+    margin-top: 20px;
+    margin-bottom: 10px;
     width: 200px;
     height: 200px;
 }
-
+#imgAdi{
+    margin-top: 45px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+}
 /* FIM PRINCIPAL */
 
 /* INIICIO PORQUE */
