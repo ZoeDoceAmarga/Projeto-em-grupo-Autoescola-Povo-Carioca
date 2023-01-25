@@ -1,22 +1,17 @@
-import React from 'react'
 
-
-//componentes
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer';
-
+import Footer from "../components/Footer";
+import MainSobre from "../components/MainSobre";
 
 const Sobre = () => {
-  return (
-    <div>
-        <Navbar />
-            <div>
-                <h2>SOBREEE</h2>
-            </div>
-        <Footer /> 
+    return (
+      <div>
 
-    </div>
-  )
-}
+        <MainSobre />
+        <Footer />
 
-export default Sobre
+
+      </div>
+    )
+  }
+  
+  export default Sobre;

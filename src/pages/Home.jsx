@@ -1,24 +1,24 @@
-import './stylesHome.css'
 
 
-import Navbar from '../components/Navbar';
-import Carrosel from '../components/Carrosel';
-import Servicos from '../components/Servicos';
-import Sobre from '../components/Sobre';
-import Visita from '../components/Visita';
-import Footer from '../components/Footer';
+import Carrossel from "../components/Carrossel";
+import Footer from "../components/Footer";
+import Porque from "../components/home/Porque";
+import Principal from "../components/home/Principal";
 
-export const Home = () => {
+const Home = () => {
   return (
-    <div className="global">
-        <Navbar/>
-         <div className="conteiner">
-            <Carrosel/>
-            <Servicos/>
-            <Sobre/>
-            <Visita/>
-            <Footer/>
-      </div>     
+    <div>
+
+      <Carrossel />
+      <Principal /> 
+
+      <Porque />
+      <Footer />
+     
+
+
     </div>
-  );
+  )
 }
+
+export default Home;
