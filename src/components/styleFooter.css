@@ -1,0 +1,70 @@
+.footer{
+    display: grid;
+    grid-template-areas: 
+    "atent loc contat"
+    "links redeSocial uni"
+    "logo logo logo"
+    ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #FFB91C;
+    height: 350px;
+    width: 100vw;
+
+  }
+  .logo{
+    width:250px;
+    grid-area: logo;
+    justify-self: center;
+
+  }
+  .atendimento{
+    grid-area: atent;
+  }
+
+  .contato{
+    grid-area: contat;
+  }
+  .local{
+    grid-area: loc;
+  }
+  .linksUteis{
+    grid-area: links;
+  }
+  .links li{
+    list-style: none;
+
+  }
+  .redeSocial{
+    grid-area: redeSocial;
+  }
+  .unidade{
+    grid-area: uni;
+  }
+  
+  .footer h2 a {
+    opacity: 1;
+  }
+
+  .footer ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    text-decoration: none;
+    
+  }
+  .footer li {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .new-btn{
+    border: 1px solid #FFF;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    
+  }
+  .new-btn:hover{
+    opacity: 1;
+  }

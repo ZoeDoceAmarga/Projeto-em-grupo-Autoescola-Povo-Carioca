@@ -1,4 +1,3 @@
-
 /*Reset*/
 
 
@@ -10,22 +9,29 @@
 /* --------------------------------------------------- */
 
 
-.w3-bar{
+.w3-bar {
     height: 100px;
 }
+
 /* NAV */
-#logo{
+#logo {
     width: 250px;
-    
+
 }
-.imglogo{
+
+.imglogo {
     width: 250px;
     margin-top: -80px;
 }
-.posicao{
+
+.posicao {
     margin-top: 20px;
     font-size: 15px;
     color: #fff;
+}
+
+#home {
+    z-index: 5;
 }
 
 /* 
@@ -90,16 +96,18 @@ header {
 .w3-margin-top {
     color: #FF004C;
     font-size: 25px;
-    
+
 }
+
 /* link {
     margin-top: 50px;
 } */
 
 
-i{
+i {
     margin-inline: 3px;
 }
+
 /* 
 .hero-title {
     padding-top:80px;
@@ -130,10 +138,11 @@ Class .icons {
 } */
 
 /* CAROUSEL */
-.carrossel{
+.carrossel {
     margin-bottom: 0px;
 }
-.w-100{
+
+.w-100 {
     height: 450px;
 }
 
@@ -144,17 +153,20 @@ Class .icons {
 
 /* INICIO PRINCIPAL */
 
-#artes{
-    margin-top:40px;
+#artes {
+    margin-top: 40px;
 }
+
 main {
-    width: 100% ;
+    width: 100%;
     padding-bottom: 40px;
     margin-top: 0px;
 }
-.fundo{
-    background-color:   #ff9d1c;
+
+.fundo {
+    background-color: #ff9d1c;
 }
+
 .title {
     margin-top: 100px;
     margin-bottom: 30px;
@@ -166,10 +178,12 @@ main {
     text-align: center;
     text-transform: uppercase;
 }
+
 h3 {
     color: white;
     text-align: center;
 }
+
 /* h2{
     
 } */
@@ -199,6 +213,7 @@ h3 {
     /* border: 1px solid rgba(255, 255, 255, 0.18); */
 
 }
+
 .game-list h3 {
     font-size: 125%;
     margin-top: 25px;
@@ -211,73 +226,95 @@ h3 {
 
 .game-list:hover {
     transform: scale(1.10);
-    
+
 }
-.btn-default{
+
+.btn-default {
     margin-top: 15px;
     border-radius: 5px;
     padding: 10px;
     background-color: #fff;
     color: #000015;
-    border:none;
+    border: none;
 }
-.btn-default:hover{
+
+.btn-default:hover {
     background-color: #a7a7a7;
 }
-.imgserv{
+
+.imgserv {
     width: 50px;
 
 }
-#imgRenova{
+
+#imgRenova {
     margin-top: 20px;
     margin-bottom: 10px;
     width: 180px;
     height: 180px;
 }
-#imagemhabi{
+
+#imagemhabi {
     margin-top: 20px;
     margin-bottom: 10px;
     width: 200px;
     height: 200px;
 }
-#imgAdi{
+
+#imgAdi {
     margin-top: 45px;
     margin-bottom: 10px;
     width: 150px;
     height: 150px;
 }
+
 /* FIM PRINCIPAL */
+
+/* MODAL */
+
+.modal-title {
+    color: black;
+}
+
+.modal-header {
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
 
 /* INIICIO PORQUE */
 
-.title-pq{
-    margin-top:80px;
+.title-pq {
+    margin-top: 80px;
     margin-bottom: 100px;
     text-align: center;
-    background-color: #ffffffd3 ;
+    background-color: #ffffffd3;
     color: rgb(0, 0, 0);
 }
-.conteudo-pq{
-    background-color: #fff  ;
+
+.conteudo-pq {
+    background-color: #fff;
     height: 100px;
 }
 
-.blocos{
+.blocos {
     height: 300px;
     width: 400px;
     /* background-color: chocolate; */
     text-align: center;
 }
-.blocos h3{
+
+.blocos h3 {
     color: rgb(0, 0, 0);
     margin-bottom: 25px;
 }
-.blocos p{
+
+.blocos p {
     color: rgb(0, 0, 0);
 }
 
-.sobre{
-    background-color: #ffffffd3 ;
+.sobre {
+    background-color: #ffffffd3;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -294,37 +331,45 @@ h3 {
 /* INICIO SOBRE */
 
 
-  .empresa{
+.empresa {
     grid-area: empresa;
     width: 1000px;
     /* background-color: aqua; */
-  }
+}
 
-  .equipe{
+.equipe {
     grid-area: equipe;
     width: 1000px;
     /* background-color: coral; */
-  }
-  .frota{
+}
+
+.frota {
     grid-area: frota;
     width: 1000px;
     /* background-color: darkolivegreen; */
-  }
-  
-  .empresa h2, .carrosel h2, .equipe h2, .frota h2{
+}
+
+.empresa h2,
+.carrosel h2,
+.equipe h2,
+.frota h2 {
     color: #FEB510;
     width: 1000px;
     margin-bottom: 30px;
     margin-left: 50px;
     margin-top: 100px;
     font-size: 45px;
-  }
-  .empresa p, .carrosel p, .equipe p, .frota p{
+}
+
+.empresa p,
+.carrosel p,
+.equipe p,
+.frota p {
     color: rgb(0, 0, 0);
     margin-bottom: 30px;
     margin-left: 50px;
-   
-  }
+
+}
 
 
 
@@ -332,78 +377,78 @@ h3 {
 
 /* INICIO AREA ALUNO */
 
-.containerAreaAluno{
+.containerAreaAluno {
     display: grid;
-    grid-template-areas: 
-    "titulo"
-    "btn1"
-    "btn2"
-    "btn3";
-  
-   
-  }
+    grid-template-areas:
+        "titulo"
+        "btn1"
+        "btn2"
+        "btn3";
+}
 
-.title-areaAluno{
+.title-areaAluno {
     grid-area: titulo;
     margin-top: 80px;
     margin-bottom: 80px;
     text-align: center;
     color: #FFB91C;
     font-size: 45px;
-  }
-  .btn1{
+}
+
+.btn1 {
     grid-area: btn1;
     width: 200px;
     justify-self: center;
     margin-bottom: 30px;
     background-color: #FFB91C;
-    color: #ffff  ;
+    color: #ffff;
     border: 0px;
     border-radius: 5px;
     height: 50px;
     cursor: pointer;
-  
-    
-  }
-  .btn2{
+}
+
+.btn2 {
     grid-area: btn2;
     width: 200px;
     justify-self: center;
     margin-bottom: 30px;
     background-color: #FFB91C;
-    color: #ffff  ;
+    color: #ffff;
     border: 0px;
     border-radius: 5px;
     height: 50px;
     cursor: pointer;
-    
-  }
-  
-  .btn3{
+
+}
+
+.btn3 {
     grid-area: btn3;
     width: 200px;
     justify-self: center;
     margin-bottom: 100px;
     background-color: #FFB91C;
-    color: #ffff  ;
+    color: #ffff;
     border: 0px;
     border-radius: 5px;
     height: 50px;
     cursor: pointer;
-   
-    
-  }
 
-  .btn3:hover{
+
+}
+
+.btn3:hover {
     background-color: #f5d48d;
-  }
-  .btn2:hover{
+}
+
+.btn2:hover {
     background-color: #f5d48d;
-  }
-  .btn1:hover{
+}
+
+.btn1:hover {
     background-color: #f5d48d;
-  }
-  
+}
+
 /* FIM AREA ALUNO */
 
 
@@ -411,24 +456,27 @@ h3 {
 .footer {
     background-color: #000015;
 }
-.titleFooter{
+
+.titleFooter {
     color: #fff;
     text-align: center;
 
 }
-.subtitleFooter{
+
+.subtitleFooter {
     color: #FFB91C;
     font-size: 22px;
 }
-.paragrafo-footer{
+
+.paragrafo-footer {
     margin-left: 8px;
 
 }
 
-.links{
+.links {
     list-style: none;
     text-decoration: none;
-    
+
 }
 
 .contact {
@@ -445,7 +493,7 @@ h3 {
     margin-left: 75px;
 
     padding: 3px 10px !important;
-  
+
 }
 
 input {
@@ -458,7 +506,8 @@ input {
     margin-top: 75px !important;
     color: white;
 }
-.imglogoFooter{
+
+.imglogoFooter {
     width: 180px;
     display: block;
     margin: auto;
@@ -680,13 +729,13 @@ span {
 
 
     }
-   
-   
+
+
     .hero-title {
         margin-top: 50px;
         font-size: 35px;
     }
-    
+
     .hero-text p {
         width: 80%;
         font-size: 13px;
