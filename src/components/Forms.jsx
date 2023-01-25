@@ -1,5 +1,5 @@
 
-
+import "../components/home/site.css"
 
 const Forms = () => {
     return (
