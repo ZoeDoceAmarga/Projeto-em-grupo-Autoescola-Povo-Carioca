@@ -1,7 +1,7 @@
-import axios from "axios";
+import axios from "axios"
 
 const API = axios.create({
-  baseURL: "https://testeprojeto.onrender.com",
-});
+    baseURL: "https://projeto-individual-mod3.onrender.com/",
+  });
 
-export default API;
+export default API

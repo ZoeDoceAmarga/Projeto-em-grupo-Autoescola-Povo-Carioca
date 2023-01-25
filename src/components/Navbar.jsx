@@ -1,5 +1,5 @@
 
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 import '../components/home/site.css'
 
@@ -9,16 +9,16 @@ const Navbar = () => {
   return (
 
     <div>
-      
-        <div className='w3-top' id='home'>
 
-          <div class="w3-top w3-bar w3-orange w3-padding w3-card w3-small  ">
-            <a href="/"> <img className='imglogo  ' src='https://user-images.githubusercontent.com/65381107/213047568-5209075c-9273-4f72-bd0b-501d816f2ce7.png' alt='logo' /> </a>
-            
+      <div className='w3-top' id='home'>
 
-         
+        <div class="w3-top w3-bar w3-orange w3-padding w3-card w3-small  ">
+          <a href="/"> <img className='imglogo  ' src='https://user-images.githubusercontent.com/65381107/213047568-5209075c-9273-4f72-bd0b-501d816f2ce7.png' alt='logo' /> </a>
 
-            <div class="w3-right w3-hide-small">
+
+
+
+          <div class="w3-right w3-hide-small">
             <Link to="/" class="w3-button  w3-round-large posicao">  Página Inicial</Link>
 
             <Link to="/service" class="w3-button  w3-round-large  posicao">Orçamento</Link>
@@ -30,8 +30,8 @@ const Navbar = () => {
           </div>
 
         </div>
-    </div>
-      
+      </div>
+
 
 
 

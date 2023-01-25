@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import Footer from "../components/Footer";
 import MainAreaAluno from "../components/MainAreaAluno";
