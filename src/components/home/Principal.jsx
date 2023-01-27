@@ -1,9 +1,12 @@
 import "../home/site.css"
+import Loading from "../Loading"
+
 
 const Principal = props => {
     return (
         <main className='fundo'>
             {/* <h2 className='title  w3-animate-opacity' id='artes'>Serviços</h2> */}
+            <div id="load"></div>
             <div className='games'>
                 <div className='game-list'>
                     <img className='imgserv' src='https://user-images.githubusercontent.com/65381107/213037796-0b5b1ce0-8012-42a6-a9de-59180045458b.png' alt='' />

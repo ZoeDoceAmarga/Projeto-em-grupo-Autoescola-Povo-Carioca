@@ -8,6 +8,16 @@
 
 /* --------------------------------------------------- */
 
+#load {
+    position: fixed;
+    display: block;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ }
+
 
 .w3-bar {
     height: 100px;
@@ -317,6 +327,9 @@ h3 {
     margin-bottom: 30px;
     margin-left: 50px;
 
+}
+.UltimoParagrafo-sobre{
+    padding-bottom: 100px;
 }
 
 

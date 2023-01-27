@@ -27,7 +27,7 @@ const MainSobre = () => {
 
                <p> Nossa frota é composta por 10 veículos:</p>
                 <p>- 6 Carros;</p>
-                <p >- 4 Motos; </p>
+                <p className='UltimoParagrafo-sobre'>- 4 Motos; </p>
 
                 
               </div>
