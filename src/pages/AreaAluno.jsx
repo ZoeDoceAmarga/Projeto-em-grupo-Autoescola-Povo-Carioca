@@ -8,7 +8,7 @@ const AreaAluno = () => {
       <div>
         <MainAreaAluno />
 
-        <Footer />
+
       </div>
     )
   }

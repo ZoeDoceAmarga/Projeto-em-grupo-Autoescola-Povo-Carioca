@@ -8,6 +8,19 @@
 
 /* --------------------------------------------------- */
 
+/* orçamento */
+
+.lista-aulas{
+    padding: 50px;
+}
+
+.lista-alunos{
+    padding: 100px;
+    margin-bottom: 300px;
+}
+
+/* fim orçamento */
+
 
 .w3-bar {
     height: 100px;
@@ -29,7 +42,9 @@
     font-size: 15px;
     color: #fff;
 }
-
+.posicao:link{
+    text-decoration: none;
+}
 #home {
     z-index: 5;
 }
@@ -66,33 +81,6 @@ header {
 
 
 
-/* 
-.w3-text-white {
-    margin-top: 50px
-}
-
-
-
-.hero-description {
-    height: 650px;
-    background-color: rgba(0, 0, 21, 0.336);
-    display: flex;
-}
-
-.hero-text {
-    width: 70% !important;
-    margin: auto !important;
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Reggae One';
-}
-
-
-.hero-text p {
-    color: white;
-    width: 50%;
-} */
-
 .w3-margin-top {
     color: #FF004C;
     font-size: 25px;
@@ -108,34 +96,7 @@ i {
     margin-inline: 3px;
 }
 
-/* 
-.hero-title {
-    padding-top:80px;
-    text-transform: uppercase;
-    font-size: 80px;
-    color: #FF004C;
-    text-align: center;
-    font-family: 'Rubik Glitch';
-    text-shadow: 1px 2px 15px black;
 
-}
-
-
-
-.fa {
-    text-decoration: none;
-
-}
-
-.social {
-    width: 100%;
-}
-
-Class .icons {
-    font-size: 20px;
-    letter-spacing: 5px;
-
-} */
 
 /* CAROUSEL */
 .carrossel {
@@ -328,6 +289,37 @@ h3 {
 /* FIM PORQUE */
 
 
+/* INICIO matricula */
+.formulario{
+
+    margin: 150px;
+
+}
+.buttonEnviar{
+    background-color: #d8d4d4;  
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+}
+.buttonExcluir{
+    margin-left: 30px;
+    background-color: #c90c0c;  
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+}
+/* #d8d4d4 */
+/* #a3a3a3 */
+.buttonEnviar:hover{
+    background-color: #a3a3a3;
+}
+
+
+/* fim matricula */
+
+
 /* INICIO SOBRE */
 
 
@@ -370,7 +362,9 @@ h3 {
     margin-left: 50px;
 
 }
-
+.UltimoParagrafo-sobre{
+    padding-bottom: 100px;
+}
 
 
 /* FIM SOBRE */
@@ -378,17 +372,19 @@ h3 {
 /* INICIO AREA ALUNO */
 
 .containerAreaAluno {
+    margin-bottom: 100px;
     display: grid;
     grid-template-areas:
         "titulo"
         "btn1"
         "btn2"
         "btn3";
+        text-align: center;
 }
 
 .title-areaAluno {
     grid-area: titulo;
-    margin-top: 80px;
+    margin-top: 170px;
     margin-bottom: 80px;
     text-align: center;
     color: #FFB91C;
@@ -412,7 +408,7 @@ h3 {
     grid-area: btn2;
     width: 200px;
     justify-self: center;
-    margin-bottom: 30px;
+    margin-bottom: 130px;
     background-color: #FFB91C;
     color: #ffff;
     border: 0px;
@@ -422,7 +418,7 @@ h3 {
 
 }
 
-.btn3 {
+/* .btn3 {
     grid-area: btn3;
     width: 200px;
     justify-self: center;
@@ -439,7 +435,7 @@ h3 {
 
 .btn3:hover {
     background-color: #f5d48d;
-}
+} */
 
 .btn2:hover {
     background-color: #f5d48d;
@@ -454,6 +450,7 @@ h3 {
 
 /* INICIO Footer */
 .footer {
+
     background-color: #000015;
 }
 
@@ -888,3 +885,17 @@ span {
     } */
 
 }
+
+.lista-aulas{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.agendar-aluno-container {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+
