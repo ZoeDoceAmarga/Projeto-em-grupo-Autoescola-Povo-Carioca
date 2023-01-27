@@ -21,9 +21,13 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style=" width:60px;cursor:default"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" style=" width:60px;cursor:default"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" style=" width:60px;cursor:default"/>
-  <img src="https://www.google.com/urlsa=i&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FReact_%2528JavaScript%2529&psig=AOvVaw1osQOQTmG36VFrqJr9N1MH&ust=1672878375219000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJj5q-zTrPwCFQAAAAAdAAAAABAE" style="width:60px;cursor:default"/>
+  <img src="https://user-images.githubusercontent.com/65381107/214992098-3f7920bd-9b44-402f-83ed-8208874cfb74.png" style="width:60px;cursor:default"/>
 
 </div>
+
+```
+
+---
 
 ### 🎲 Iniciando o Projeto
 
@@ -42,7 +46,7 @@ $ <http://localhost:5173>
 
 ---
 
-## 📸 Site
+## 📸 O Projeto
 
 <img src="https://user-images.githubusercontent.com/65381107/214991838-73813a24-0d9d-4021-a8b0-615f420ced89.png">
 
@@ -59,6 +63,4 @@ $ <http://localhost:5173>
   <li><a href="https://github.com/GuttenbergJr">@GuttenbergJr</li>
 </ul>
 
-## 🖥️ O Projeto
 
-<p>Para acessar a página do projeto no Github Pages, <a href="  ">clique aqui</a>.</p>
