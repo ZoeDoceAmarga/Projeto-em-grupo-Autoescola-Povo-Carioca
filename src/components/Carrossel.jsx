@@ -12,7 +12,7 @@ const Carrossel = props => {
     <div className='carrossel'>
 
       <Carousel>
-        <Carousel.Item interval={1500}>
+        <Carousel.Item interval={15000}>
           <img className='d-block w-100'
             src={imagem1}
             alt="Image One"
