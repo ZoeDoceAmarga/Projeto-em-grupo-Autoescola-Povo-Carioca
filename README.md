@@ -1,5 +1,6 @@
 # Autoescola Povo Carioca
-Projeto realizado com a intenção de colocar em prática tudo o que foi passado em aula
+
+***Projeto realizado em grupo com a intenção de colocar em prática tudo o que foi passado em aula no módulo 3 Vite + React do curso de Desenvolvimento Web FullStack na Resilia Educação:***
 
 
 
@@ -23,6 +24,29 @@ Projeto realizado com a intenção de colocar em prática tudo o que foi passado
   <img src="https://www.google.com/urlsa=i&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FReact_%2528JavaScript%2529&psig=AOvVaw1osQOQTmG36VFrqJr9N1MH&ust=1672878375219000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJj5q-zTrPwCFQAAAAAdAAAAABAE" style="width:60px;cursor:default"/>
 
 </div>
+
+### 🎲 Iniciando o Projeto
+
+```bash
+# Clone o repositório
+$ git clone <https://github.com/ZoeDoceAmarga/Projeto-em-grupo-Autoescola-Povo-Carioca.git>
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Projeto-em-grupo-Autoescola-Povo-Carioca
+# Instale as dependências
+$ npm install reactstrap react react-router-dom@6
+# Execute a aplicação 
+$ npm run dev
+# Acesse o servidor
+$ <http://localhost:5173>
+```
+
+---
+
+## 📸 Site
+
+<img src="https://user-images.githubusercontent.com/65381107/214991838-73813a24-0d9d-4021-a8b0-615f420ced89.png">
+
+
 
 ## 🤝 Squad
 
