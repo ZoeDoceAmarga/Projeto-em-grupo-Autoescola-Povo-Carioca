@@ -1,8 +1,5 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
-
-
-
 import API from "../components/services/api";
 
 
@@ -54,13 +51,13 @@ const EditarAula = () => {
   return (
     <div>
       <br /><br />
-      <form onSubmit={(e) => editar(e)}>
+      <form className='formulario' onSubmit={(e) => editar(e)}>
         <h1 >Editar: "{nome}"</h1>
-        <div>
+        <div class="form-group">
           <section>
             <div>
               <label htmlFor="nome">Nome:</label>
-              <input
+              <input class="form-control"
                 type="text"
                 name="nome"
                 id="nome"
@@ -70,7 +67,7 @@ const EditarAula = () => {
             </div>
             <div>
               <label htmlFor="cpf">CPF:</label>
-              <input
+              <input class="form-control"
                 type="text"
                 name="cpf"
                 id="cpf"
@@ -81,7 +78,7 @@ const EditarAula = () => {
             </div>
             <div>
               <label htmlFor="aula">aula:</label>
-              <input
+              <input class="form-control"
                 type="text"
                 name="aula"
                 id="aula"
@@ -91,8 +88,8 @@ const EditarAula = () => {
             </div>
             <div>
               <label htmlFor="horario">Horario:</label>
-              <input
-                type="text"
+              <input class="form-control"
+                type="time"
                 name="horario"
                 id="horario"
                 placeholder="Digite a horario"
@@ -102,8 +99,8 @@ const EditarAula = () => {
             </div>
             <div>
               <label htmlFor="dia">Dia:</label>
-              <input
-                type="text"
+              <input class="form-control"
+                type="date"
                 name="dia"
                 id="dia"
 
@@ -114,11 +111,9 @@ const EditarAula = () => {
           </section>
         </div>
         <div>
+
           <Link to="/consulta">
-            <button></button>
-          </Link>
-          <Link to="/consulta">
-            <button onClick={(e) => editar(e)}></button>
+            <button class="buttonEnviar" onClick={(e) => editar(e)}>Salvar</button>
           </Link>
         </div>
       </form>

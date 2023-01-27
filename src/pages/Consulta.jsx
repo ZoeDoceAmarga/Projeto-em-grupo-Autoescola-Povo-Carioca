@@ -35,38 +35,36 @@ const Consulta = () => {
 
   return (
     <div>
-      <div className="lista-aulas">
+      <div className="lista-alunos">
         {posts.length === 0 ? (
           <p>Carregando...</p>
         ) : (
           posts.map((post) => (
             <div>
-              <Link to={`/editaraula/${post.id}`}><button>Editar</button></Link>
+              <Link to={`/editaraula/${post.id}`}><button class="buttonEnviar">Editar</button></Link>
               <Link to={`/areaAluno`}>
-              <button onClick={() => excluirAula(post.id)}>Excluir</button>
-            </Link>
-              <Table striped bordered hover>
-              <thead>
-          <tr>
-            <th>Nome</th>
-            <th>CPF</th>
-            <th>Aula</th>
-            <th>Horário</th>
-            <th>Dia</th>
-          </tr>
-        </thead>
-        <tbody>
- 
-            <tr key={post.id}>
-              <td>{post.nome}</td>
-              <td>{post.cpf}</td>
-              <td>{post.aula}</td>
-              <td>{post.horario}</td>
-              <td>{post.dia}</td>
+                <button class="buttonExcluir" onClick={() => excluirAula(post.id)}>Excluir</button>
+              </Link>
+              <Table striped bordered hover size="sm">
+                <thead>
+                  <tr>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Aula</th>
+                    <th>Horário</th>
+                    <th>Dia</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr key={post.id}>
+                    <td>{post.nome}</td>
+                    <td>{post.cpf}</td>
+                    <td>{post.aula}</td>
+                    <td>{post.horario}</td>
+                    <td>{post.dia}</td>
+                  </tr>
 
-            </tr>
-
-        </tbody>
+                </tbody>
 
               </Table>
             </div>

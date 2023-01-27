@@ -26,39 +26,39 @@ const AgendarAula = () => {
   };
 
   return (
-    <div className="agendar-aluno-container">
-      <form onSubmit={(e) => createPost(e)} >
+    <div>
+      <form className='formulario' onSubmit={(e) => createPost(e)} >
         <h1>Agendar Aula</h1>
-        <div>
+        <div class="form-group">
           <section>
 
             <div>
               <label htmlFor="nome">Nome:</label>
-              <input type="text" name="nome" id="nome" placeholder="Escreva seu nome" onChange={(e) => setNome(e.target.value)} />
+              <input type="text" class="form-control" name="nome" id="nome" placeholder="Escreva seu nome" onChange={(e) => setNome(e.target.value)} />
             </div>
   
             <div>
               <label htmlFor="cpf">CPF:</label>
-              <input type="text" name="cpf" id="cpf" placeholder="Digite o cpf" onChange={(e) => setCpf(e.target.value)} />
+              <input type="text" class="form-control" name="cpf" id="cpf" placeholder="Digite o cpf" onChange={(e) => setCpf(e.target.value)} />
             </div>
             <div>
               <label htmlFor="aula">Aula:</label>
-              <input type="text" name="aula" id="aula" placeholder="Escolha a aula" onChange={(e) => setAula(e.target.value)} />
+              <input type="text" class="form-control" name="aula" id="aula" placeholder="Escolha a aula" onChange={(e) => setAula(e.target.value)} />
             </div>
             <div>
               <label htmlFor="horario">Horario:</label>
-              <input type="number" min="8" max="18" name="horario" id="horario" placeholder="Escolha horario" onChange={(e) => setHorario(e.target.value)} />
+              <input type="time" class="form-control" name="horario" id="horario" placeholder="Escolha horario" onChange={(e) => setHorario(e.target.value)} />
             </div>
 
             <div>
               <label htmlFor="dia">Dia:</label>
-              <input type="date" name="dia" id="dia" placeholder="Escolha o dia" onChange={(e) => setDia(e.target.value)} />
+              <input type="date" class="form-control" name="dia" id="dia" placeholder="Escolha o dia" onChange={(e) => setDia(e.target.value)} />
             </div>
 
           </section>
         </div>
         <div>
-          <button type="submit">Agendar Aula</button>
+          <button type="submit" class="buttonEnviar">Agendar Aula</button>
         </div>
       </form>
     </div>

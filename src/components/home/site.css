@@ -14,6 +14,11 @@
     padding: 50px;
 }
 
+.lista-alunos{
+    padding: 100px;
+    margin-bottom: 300px;
+}
+
 /* fim orçamento */
 
 
@@ -297,6 +302,14 @@ h3 {
     border: none;
     margin-top: 15px;
 }
+.buttonExcluir{
+    margin-left: 30px;
+    background-color: #c90c0c;  
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+}
 /* #d8d4d4 */
 /* #a3a3a3 */
 .buttonEnviar:hover{
@@ -359,6 +372,7 @@ h3 {
 /* INICIO AREA ALUNO */
 
 .containerAreaAluno {
+    margin-bottom: 100px;
     display: grid;
     grid-template-areas:
         "titulo"
@@ -436,6 +450,7 @@ h3 {
 
 /* INICIO Footer */
 .footer {
+
     background-color: #000015;
 }
 
@@ -872,7 +887,7 @@ span {
 }
 
 .lista-aulas{
-    margin-top: 100px;
+    margin-top: 30px;
     margin-left: 20px;
     font-weight: bold;
 }
