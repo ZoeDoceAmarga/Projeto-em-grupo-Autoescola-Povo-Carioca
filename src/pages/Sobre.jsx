@@ -6,7 +6,6 @@ const Sobre = () => {
       <div>
 
         <MainSobre />
-        <Footer />
 
 
       </div>

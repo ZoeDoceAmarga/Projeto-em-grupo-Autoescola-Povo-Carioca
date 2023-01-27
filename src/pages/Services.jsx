@@ -8,7 +8,6 @@ const Services = () => {
         <Form />
 
 
-        <Footer />
 
       </div>
     )

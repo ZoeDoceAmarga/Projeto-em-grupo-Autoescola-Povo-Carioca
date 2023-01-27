@@ -13,9 +13,8 @@ const Home = () => {
       <Principal />
 
       <Porque />
-      <Footer />
 
-      <Modal />
+    
 
 
     </div>

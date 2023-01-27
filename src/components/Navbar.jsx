@@ -20,8 +20,12 @@ const Navbar = () => {
 
           <div class="w3-right w3-hide-small">
             <Link to="/" class="w3-button  w3-round-large posicao">  Página Inicial</Link>
+            
+            <Link to="/orcamento" class="w3-button  w3-round-large  posicao">Orçamento</Link>
+            
 
             <Link to="/service" class="w3-button  w3-round-large  posicao">Matricula Online</Link>
+
 
             <Link to="/sobre" class="w3-button  w3-round-large  posicao">Sobre</Link>
 
