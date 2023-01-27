@@ -16,18 +16,10 @@
   <li>Utilizar repositório público no github, com todos os integrantes do grupo como colaboradores e disponibilização de uma GithubPage com o projeto;</li>
 </ul>
 
-## 🛠️ Tecnologias Utilizadas
-<div style="display:flex">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style=" width:60px;cursor:default"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" style=" width:60px;cursor:default"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" style=" width:60px;cursor:default"/>
-  <img src="https://user-images.githubusercontent.com/65381107/214992098-3f7920bd-9b44-402f-83ed-8208874cfb74.png" style="width:60px;cursor:default"/>
 
-</div>
 
 ```
 
----
 
 ### 🎲 Iniciando o Projeto
 
@@ -45,6 +37,18 @@ $ <http://localhost:5173>
 ```
 
 ---
+<br /> 
+
+
+## 🛠️ Tecnologias Utilizadas
+<div style="display:flex">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style=" width:60px;cursor:default"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" style=" width:60px;cursor:default"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" style=" width:60px;cursor:default"/>
+  <img src="https://user-images.githubusercontent.com/65381107/214992098-3f7920bd-9b44-402f-83ed-8208874cfb74.png" style="width:60px;cursor:default"/>
+
+</div>
+<br />
 
 ## 📸 O Projeto
 
