@@ -30,58 +30,58 @@ function matricula() {
   if (validacaoNome || validacaoEmail || validacaoNascimento || validacaoCpf || validacaoTel || validacaoRua || validacaoNumero || validacaoBairro || validacaoCidade || validacaoEstado || validacaoCep) {
     try {
       if (validacaoNome)
-        throw caixaErro.innerHTML += `<p class="abc"> coloque um nome valido </p>`;
+        throw caixaErro.innerHTML += `<p class="avisoErro">Insira um nome válido</p>`;
     } catch (erro) { }
 
     try {
       if (validacaoEmail)
-        throw caixaErro.innerHTML += `<p class="abc"> insira um email valido </p>`;
+        throw caixaErro.innerHTML += `<p class="avisoErro">Insira um email válido</p>`;
     } catch (erro) { }
 
     try {
       if (validacaoNascimento)
-        throw caixaErro.innerHTML += `<p class="abc">insira uma data valida</p>`;
+        throw caixaErro.innerHTML += `<p class="avisoErro">Insira uma data válida</p>`;
     } catch (erro) { }
 
     try {
-      if (validacaoCpf) throw caixaErro.innerHTML += `<p class="abc">insira um cpf valido</p>`;
+      if (validacaoCpf) throw caixaErro.innerHTML += `<p class="avisoErro">Insira um CPF válido</p>`;
     } catch (erro) { }
 
     try {
       if (validacaoTel)
-        throw caixaErro.innerHTML += `<p class="abc">insira um telefone valido</p>`;
+        throw caixaErro.innerHTML += `<p class="avisoErro">Insira um telefone válido</p>`;
     } catch (erro) { }
 
     try {
       if (validacaoRua)
-        throw caixaErro.innerHTML += `<p class="abc">insira um nome de rua valido</p>`;
+        throw caixaErro.innerHTML += `<p class="avisoErro">Insira um nome de rua válido</p>`;
     } catch (erro) { }
 
     try {
       if (validacaoNumero)
-        throw caixaErro.innerHTML += `<p class="abc">insira um numero valido</p>`;
+        throw caixaErro.innerHTML += `<p class="avisoErro">Insira um número válido</p>`;
     } catch (erro) { }
 
     try {
       if (validacaoBairro)
-        throw caixaErro.innerHTML += `<p class="abc">insira um nome de bairro valido</p>`;
+        throw caixaErro.innerHTML += `<p class="avisoErro">Insira um nome de bairro válido</p>`;
     } catch (erro) { }
 
     try {
       if (validacaoCidade)
-        throw caixaErro.innerHTML += `<p class="abc">insira um nome de cidade valido</p>`;
+        throw caixaErro.innerHTML += `<p class="avisoErro">Insira um nome de cidade válido</p>`;
     } catch (erro) { }
 
     try {
       if (validacaoEstado)
-        throw caixaErro.innerHTML += `<p class="abc">insira um nome de estado valido</p>`;
+        throw caixaErro.innerHTML += `<p class="avisoErro">Insira um nome de estado válido</p>`;
     } catch (erro) { }
 
     try {
-      if (validacaoCep) throw caixaErro.innerHTML += `<p class="abc">insira um CEP valido</p>`;
+      if (validacaoCep) throw caixaErro.innerHTML += `<p class="avisoErro">Insira um CEP válido</p>`;
     } catch (erro) { }
 
-  } 
+  }
   else {
     alert('Matriculado com Sucesso')
   }
